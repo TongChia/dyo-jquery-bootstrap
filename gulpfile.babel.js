@@ -4,8 +4,10 @@ import sourcemaps from 'gulp-sourcemaps';
 import browserSync from 'browser-sync';
 import rollupConfig from './rollup.config';
 
+let cache;
 export function build () {
-  return rvs2(rollupConfig)
+  return rvs2({...rollupConfig, cache})
+    .on('bundle', (bundle) => cache = bundle)
     .pipe(sourcemaps.init({ loadMaps: true }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./public/assets'))
@@ -19,7 +21,7 @@ export function serve () {
     server: {
       baseDir: 'public',
       routes: {
-          '/node_modules': 'node_modules'
+        '/node_modules': 'node_modules'
       }
     },
     ui: false,

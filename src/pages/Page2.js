@@ -1,8 +1,10 @@
 import {h} from 'dyo';
 
+console.log('loaded page2!');
+
 export function Page2 () {
   return <div>
-    Page2
+    <h1>Page2</h1>
   </div>
 }
 
