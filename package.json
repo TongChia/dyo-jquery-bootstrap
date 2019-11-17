@@ -46,6 +46,7 @@
     "classnames": "^2.2.6",
     "core-js": "^2.6.10",
     "dyo": "^1.0.1",
+    "es5-polyfill": "0.0.6",
     "history": "^4.10.1",
     "jquery": "^1.12.4",
     "requirejs": "^2.3.6",

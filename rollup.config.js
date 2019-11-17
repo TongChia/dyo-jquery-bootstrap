@@ -10,7 +10,7 @@ export default {
   output: {
     format: 'amd',
     sourcemap: true,
-    sourcemapPathTransform: _path => {path.relative('src', _path),
+    sourcemapPathTransform: _path => path.relative('src', _path),
   },
   external: ['jquery', 'bootstrap'],
   plugins: [
