@@ -1,0 +1,54 @@
+{
+  "name": "dyo-jq-bs",
+  "version": "1.0.0",
+  "description": "dyo.js & jQuery & Bootstrap.css",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp -f gulpfile.babel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongChia/dyo-jquery-bootstrap.git"
+  },
+  "keywords": [
+    "dyo",
+    "react-like",
+    "jquery",
+    "bootstrap",
+    "IE8"
+  ],
+  "author": "TongChia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TongChia/dyo-jquery-bootstrap/issues"
+  },
+  "homepage": "https://github.com/TongChia/dyo-jquery-bootstrap#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-react-jsx": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "rollup": "^1.27.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-vinyl-stream2": "^1.2.2"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.7.2",
+    "bootstrap": "^3.4.1",
+    "classnames": "^2.2.6",
+    "core-js": "^2.6.10",
+    "dyo": "^1.0.1",
+    "history": "^4.10.1",
+    "jquery": "^1.12.4",
+    "requirejs": "^2.3.6",
+    "universal-router": "^8.3.0"
+  }
+}
