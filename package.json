@@ -4,6 +4,8 @@
   "description": "dyo.js & jQuery & Bootstrap.css",
   "main": "index.js",
   "scripts": {
+    "start": "npm run gulp",
+    "sirv": "npx sirv start ./public --dev",
     "gulp": "gulp -f gulpfile.babel.js",
     "rollup": "rollup -c rollup.config.js --dir='public/assets'",
     "cleanup": "rm -rf public/assets",
