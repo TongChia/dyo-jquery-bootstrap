@@ -53,7 +53,7 @@
     "dyo": "^1.0.1",
     "es5-polyfill": "0.0.6",
     "history": "^4.10.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.4.0",
     "requirejs": "^2.3.6",
     "universal-router": "^8.3.0"
   }
