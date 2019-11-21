@@ -1,8 +1,8 @@
 import {h, Fragment} from 'dyo';
 import {Link} from './Link';
 
-export function Layout ({children}) {
-  return <div style={{'padding-top': '50px'}} >
+export function Layout ({children, className}) {
+  return <div style={{'padding-top': '50px'}} className={className} >
     <nav class='navbar navbar-inverse navbar-fixed-top'>
       <div class='container'>
         <div class='navbar-header'>
